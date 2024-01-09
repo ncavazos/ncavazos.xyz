@@ -1,0 +1,95 @@
+html {
+  background-color: #000000;
+  font-family: "Silkscreen";
+  color: #f1f1f1;
+  font-size: 60px;
+}
+
+body {
+  min-width: fit-content;
+}
+.bar {
+  width: 600px;
+  height: 10px;
+  background-color: #4b4bea;
+  margin: 0px 0px 20px 200px;
+}
+.intro {
+  font-size:35px;
+  margin: 0 auto;
+}
+
+.sidenav {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #4b4bea;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #f1f1f1;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+
+.header {
+  margin: 0 auto;
+  width: 1010px;
+  border: 1px solid white;
+}
+
+.flyers {
+  display: flex;
+}
+
+.flyers img {
+  width: 33%;
+}
+
+.flyers2 {
+  display: flex;
+
+  align-content: center;
+}
+
+.flyers2 img {
+  width: 100%;
+}
+.logo {
+  width: 600px;
+  padding: 20px;
+}
+.mixes {
+  display: flex;
+  align-content: center;
+}
+
+.mixes img {
+  width: 100%;
+}
+.mixes2 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes2 img {
+  width: 100%
+}
+.mixes3 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes3 img {
+  width: 120%;
+}
