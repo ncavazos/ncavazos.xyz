@@ -61,9 +61,15 @@ img {
   bottom: 30px;
 }
 
-.projects {
+.projects-container {
   border: solid black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.m4l-projects-label {
+  background-color: #4b4bea;
+  padding: 20px;
+  width: 60%;
 }
